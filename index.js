@@ -10,7 +10,7 @@ function createPerson(name, age) {
 
 function addPersonAsFriend(personA, personB) {
 	person.friends.push(other);
-	return person;
+	return personB;
 }
 
 module.exports = {
