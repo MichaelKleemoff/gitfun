@@ -11,6 +11,7 @@ function createPerson(name, age) {
 function addPersonAsFriend(person, friends) {
 	person.friends.push(friends);
 	return person;
+
 }
 
 module.exports = {
