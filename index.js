@@ -8,8 +8,8 @@ function createPerson(name, age) {
 	};
 }
 
-function addPersonAsFriend(person, other) {
-	person.friends.push(other);
+function addPersonAsFriend(person, friends) {
+	person.friends.push(friends);
 	return person;
 }
 
